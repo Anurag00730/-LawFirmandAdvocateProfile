@@ -3,615 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASvybe Travels & Cabs | Premium Tour & Cab Booking Service</title>
-    <meta name="description" content="Explore your dream destinations hassle-free with ASvybe. High-end custom travel packages, verified stays, and professional tourist cabs at guaranteed best rates.">
-    <!-- Google Fonts: Outfit for Headings, Inter for Body -->
+    <meta name="description" content="ASvybe Advocates - Elite, premium legal representation providing strategic solutions for corporate, civil, property, and family legal disputes. Protecting your rights, advocating your trust.">
+    <title>ASvybe Advocates | Protecting Your Rights, Advocating Your Trust</title>
+    <!-- Google Fonts: Cinzel for headings, Montserrat for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Sticky Navigation Header -->
-    <header class="main-header" id="main-header">
-        <div class="header-container">
-            <a href="#" class="logo-link" id="nav-logo">
-                <!-- Custom SVG Plane/Car Compass Logo -->
-                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M16.2 7.8l-2 5.6-5.6 2 2-5.6 5.6-2z"/>
-                </svg>
-                <span class="logo-text">ASvybe <span class="accent-text">Travels</span></span>
-            </a>
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span class="top-bar-item"><i class="fa-solid fa-shield-halved gold-text"></i> Confidentiality Guaranteed</span>
+            <span class="top-bar-item"><i class="fa-solid fa-phone gold-text"></i> Emergency Hotline: +91 99999 88888</span>
+        </div>
+    </div>
 
-            <!-- Desktop Nav Links -->
-            <nav class="desktop-nav" aria-label="Desktop Navigation">
-                <a href="#home" class="nav-item">Home</a>
-                <a href="#packages" class="nav-item">Packages</a>
-                <a href="#book-now" class="nav-item">Book Cab</a>
-                <a href="#why-us" class="nav-item">Why Us</a>
-                <a href="#reviews" class="nav-item">Reviews</a>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-crest">A</span>
+                <div class="logo-text">
+                    <span class="logo-title">ASvybe</span>
+                    <span class="logo-subtitle">ADVOCATES & LEGAL CONSULTANTS</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#stats" class="nav-link">About</a>
+                <a href="#practice-areas" class="nav-link">Practice Areas</a>
+                <a href="#why-choose-us" class="nav-link">Why Choose Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#consultation" class="nav-btn">Book Consultation</a>
             </nav>
 
-            <!-- CTA Call Button -->
-            <div class="header-cta">
-                <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20want%20to%20inquire%20about%20a%20trip!" class="cta-button header-btn" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 1.977 14.068 1.05 11.999 1.05 6.562 1.05 2.136 5.421 2.132 10.85c-.001 1.745.47 3.447 1.365 4.957l-.989 3.612 3.704-.973zm11.233-6.924c-.321-.161-1.9-.937-2.193-1.044-.293-.107-.507-.161-.72.161-.213.322-.826 1.044-1.013 1.258-.187.214-.373.241-.694.08-1.513-.757-2.612-1.329-3.662-3.14-.277-.478.277-.443.791-.962.463-.467.587-.723.694-.937.107-.214.053-.402-.027-.562-.08-.161-.72-1.741-.987-2.383-.26-.625-.526-.54-.72-.55-.187-.008-.4-.01-.613-.01-.213 0-.56.08-.853.402-.293.322-1.12 1.097-1.12 2.678 0 1.58 1.147 3.11 1.307 3.325.16.215 2.259 3.449 5.474 4.836.765.33 1.362.527 1.826.674.77.244 1.472.21 2.027.128.618-.092 1.9-.777 2.166-1.49.266-.713.266-1.325.187-1.488-.08-.162-.293-.243-.614-.404z"/>
-                    </svg>
-                    <span>Quote / Call</span>
-                </a>
-            </div>
-
-            <!-- Mobile Menu Toggle Button -->
-            <button class="mobile-nav-toggle" aria-label="Toggle Menu" aria-controls="mobile-menu" aria-expanded="false" id="mobile-nav-toggle">
-                <span class="bar bar-1"></span>
-                <span class="bar bar-2"></span>
-                <span class="bar bar-3"></span>
+            <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </header>
 
-    <!-- Mobile Drawer Overlay Menu -->
-    <div class="mobile-menu-drawer" id="mobile-menu" aria-hidden="true">
-        <nav class="mobile-nav-links">
-            <a href="#home" class="mobile-nav-item">Home</a>
-            <a href="#packages" class="mobile-nav-item">Packages</a>
-            <a href="#book-now" class="mobile-nav-item">Book Cab</a>
-            <a href="#why-us" class="mobile-nav-item">Why Us</a>
-            <a href="#reviews" class="mobile-nav-item">Reviews</a>
-            <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20want%20to%20inquire%20about%20a%20trip!" class="cta-button mobile-cta-btn" target="_blank" rel="noopener">
-                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 1.977 14.068 1.05 11.999 1.05 6.562 1.05 2.136 5.421 2.132 10.85c-.001 1.745.47 3.447 1.365 4.957l-.989 3.612 3.704-.973zm11.233-6.924c-.321-.161-1.9-.937-2.193-1.044-.293-.107-.507-.161-.72.161-.213.322-.826 1.044-1.013 1.258-.187.214-.373.241-.694.08-1.513-.757-2.612-1.329-3.662-3.14-.277-.478.277-.443.791-.962.463-.467.587-.723.694-.937.107-.214.053-.402-.027-.562-.08-.161-.72-1.741-.987-2.383-.26-.625-.526-.54-.72-.55-.187-.008-.4-.01-.613-.01-.213 0-.56.08-.853.402-.293.322-1.12 1.097-1.12 2.678 0 1.58 1.147 3.11 1.307 3.325.16.215 2.259 3.449 5.474 4.836.765.33 1.362.527 1.826.674.77.244 1.472.21 2.027.128.618-.092 1.9-.777 2.166-1.49.266-.713.266-1.325.187-1.488-.08-.162-.293-.243-.614-.404z"/>
-                </svg>
-                <span>Get WhatsApp Quote</span>
-            </a>
-        </nav>
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <span class="drawer-logo">ASvybe</span>
+            <button class="drawer-close" id="drawerClose" aria-label="Close Menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="drawer-links">
+            <a href="#" class="drawer-link">Home</a>
+            <a href="#stats" class="drawer-link">About</a>
+            <a href="#practice-areas" class="drawer-link">Practice Areas</a>
+            <a href="#why-choose-us" class="drawer-link">Why Choose Us</a>
+            <a href="#contact" class="drawer-link">Contact</a>
+            <a href="#consultation" class="drawer-btn">Book Consultation</a>
+        </div>
     </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
 
-    <!-- Hero Section (Mobile Optimized) -->
-    <section class="hero-section" id="home">
-        <div class="hero-background" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.7) 0%, rgba(15, 23, 42, 0.85) 100%), url('https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=1920&q=80');"></div>
-        <div class="hero-container">
-            <div class="hero-content">
-                <span class="badge-tag">Premium Tour & Cab Booking Agency</span>
-                <h1 class="hero-title">Explore Your Dream Destinations, <span class="accent-highlight">Hassle-Free.</span></h1>
-                <p class="hero-subtitle">Bespoke holiday packages, verified hotels, and premium cab services at the best price guaranteed.</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content scroll-reveal">
+                <span class="hero-tagline"><i class="fa-solid fa-scale-balanced gold-text"></i> Elite Legal Counsel</span>
+                <h1 class="hero-title">Protecting Your Rights.<br><span class="gold-text">Advocating Your Trust.</span></h1>
+                <p class="hero-subtitle">Experienced legal representation providing strategic solutions for corporate, civil, property, and family legal disputes. We navigate complexity with absolute precision.</p>
                 <div class="hero-ctas">
-                    <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I'd%20like%20to%20get%20a%20free%20travel%20quote!" class="cta-button primary-btn" target="_blank" rel="noopener">
-                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 1.977 14.068 1.05 11.999 1.05 6.562 1.05 2.136 5.421 2.132 10.85c-.001 1.745.47 3.447 1.365 4.957l-.989 3.612 3.704-.973zm11.233-6.924c-.321-.161-1.9-.937-2.193-1.044-.293-.107-.507-.161-.72.161-.213.322-.826 1.044-1.013 1.258-.187.214-.373.241-.694.08-1.513-.757-2.612-1.329-3.662-3.14-.277-.478.277-.443.791-.962.463-.467.587-.723.694-.937.107-.214.053-.402-.027-.562-.08-.161-.72-1.741-.987-2.383-.26-.625-.526-.54-.72-.55-.187-.008-.4-.01-.613-.01-.213 0-.56.08-.853.402-.293.322-1.12 1.097-1.12 2.678 0 1.58 1.147 3.11 1.307 3.325.16.215 2.259 3.449 5.474 4.836.765.33 1.362.527 1.826.674.77.244 1.472.21 2.027.128.618-.092 1.9-.777 2.166-1.49.266-.713.266-1.325.187-1.488-.08-.162-.293-.243-.614-.404z"/>
-                        </svg>
-                        <span>Get Free Quote (WhatsApp)</span>
+                    <a href="#consultation" class="btn btn-primary btn-glow">
+                        <i class="fa-solid fa-calendar-check"></i> Book Legal Consultation
                     </a>
-                    <a href="#packages" class="cta-button secondary-btn">
-                        <span>Browse Packages</span>
+                    <a href="#practice-areas" class="btn btn-secondary">
+                        Explore Practice Areas <i class="fa-solid fa-arrow-down"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Interactive Travel Packages Section (JS Filter Grid) -->
-    <section class="packages-section" id="packages">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-sub">Tour & Ride Catalogs</span>
-                <h2 class="section-title">Explore Featured Packages</h2>
-                <p class="section-description">Filter premium tour packages and rental services tailored for your requirements.</p>
+    <!-- Trust & Success Stats Bar -->
+    <section class="stats-section" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-gavel gold-text"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p class="stat-label">Years of Legal Practice</p>
+                    </div>
+                </div>
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-circle-check gold-text"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="800">0</h3>
+                        <p class="stat-label">Successful Case Resolutions</p>
+                    </div>
+                </div>
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-user-tie gold-text"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="10">0</h3>
+                        <p class="stat-label">Expert Senior Advocates</p>
+                    </div>
+                </div>
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-user-shield gold-text"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p class="stat-label">Client Confidentiality %</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Practice Areas Section -->
+    <section class="practice-section" id="practice-areas">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tagline">Specialized Expertise</span>
+                <h2 class="section-title">Core Practice Areas</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">We offer bespoke, strategic legal advocacy across a wide spectrum of legal disciplines, maintaining exceptional success rates.</p>
             </div>
 
-            <!-- Tab Filtering Buttons -->
-            <div class="tab-container" role="tablist" aria-label="Package categories">
-                <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="packages-grid" data-category="honeymoon">
-                    Honeymoon Specials
-                </button>
-                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="packages-grid" data-category="family">
-                    Family Holidays
-                </button>
-                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="packages-grid" data-category="cab">
-                    Local Cab Packages
-                </button>
-            </div>
-
-            <!-- Packages Grid -->
-            <div class="packages-grid" id="packages-grid">
+            <!-- Accordion Grid -->
+            <div class="practice-grid">
                 
-                <!-- Card 1: Kashmir Honeymoon (Honeymoon Category) -->
-                <div class="package-card" data-category="honeymoon">
-                    <div class="card-visual">
-                        <!-- Touch-Swipe Image Gallery -->
-                        <div class="swipe-gallery" data-index="0">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?auto=format&fit=crop&w=800&q=80" alt="Beautiful snowy mountain range of Kashmir" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1595954421407-ad5e012b25e5?auto=format&fit=crop&w=800&q=80" alt="Serene Dal lake with shikaras" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1598324423377-506be731b8a5?auto=format&fit=crop&w=800&q=80" alt="Green scenic alpine valleys of Gulmarg" loading="lazy">
-                                </div>
-                            </div>
-                            <!-- Swiper Indicator Dots -->
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 1 -->
+                <div class="practice-card scroll-reveal" data-index="1">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                        <div class="card-title-group">
+                            <h3>Civil Litigations & Property Disputes</h3>
+                            <p class="card-brief">Property claims, title verifications, inheritance, and real estate litigation.</p>
                         </div>
-                        <span class="price-tag">₹24,999<small>/Couple</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.9 (124 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">Our civil and property division deals with high-stakes land dispute resolution, partition suits, easement rights, eviction, and landlord-tenant conflicts. We ensure rigorous verification of title deeds and represent clients before all tiers of civil courts.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Title Search & Property Due Diligence</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Partition and Inheritance Suits</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> RERA & Real Estate Regulatory Appeals</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Injunctions & Specific Performance Suits</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="Property">Consult Property Expert <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Romantic Kashmir Getaway</h3>
-                        <p class="package-intro">Immerse in the breathtaking beauty of snow-capped mountains, Shikara rides on Dal Lake, and stay in gorgeous luxury houseboats.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                5 Nights & 6 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Handpicked 4-Star Resort Stay
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Private Swift Dzire/Etios Cab
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
-                                Shikara Ride & Honeymoon Special Decor
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Romantic%20Kashmir%20Getaway%20Honeymoon%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Card 2: Goa Honeymoon (Honeymoon Category) -->
-                <div class="package-card" data-category="honeymoon">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="1">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Sandy shores and sunset in Goa" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80" alt="Beautiful blue ocean sea view of Goa" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80" alt="Beachfront infinity pool resort" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 2 -->
+                <div class="practice-card scroll-reveal" data-index="2">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="card-title-group">
+                            <h3>Corporate & Business Law</h3>
+                            <p class="card-brief">Company incorporation, contract drafting, compliance, and corporate dispute resolution.</p>
                         </div>
-                        <span class="price-tag">₹18,999<small>/Couple</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.8 (98 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">We act as legal counsel for startups, mid-sized firms, and corporate conglomerates, advising on corporate governance, mergers & acquisitions, venture capital deals, statutory compliances, and breach of contract litigation.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Master Service Agreements (MSA) & NDA Drafting</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Shareholders Agreements & Equity Structuring</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Insolvency and Bankruptcy Code (IBC) Proceedings</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Corporate Tax Advisories & Dispute Filing</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="Corporate">Consult Corporate Expert <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Goa Beachside Romance</h3>
-                        <p class="package-intro">Celebrate love by golden beaches. Relax in luxury beachfront resorts with sunset boat cruises and private candlelight dinner arrangements.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                4 Nights & 5 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Luxury Beachfront Resort
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Free Airport Pickup & Drop
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
-                                Private Candlelight Dinner on Sand
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Goa%20Beachside%20Romance%20Honeymoon%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Card 3: Munnar Honeymoon (Honeymoon Category) -->
-                <div class="package-card" data-category="honeymoon">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="2">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80" alt="Beautiful green tea gardens of Munnar Kerala" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Mist covered mountains of Western Ghats" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f90f6?auto=format&fit=crop&w=800&q=80" alt="Lush green tropical forest valley" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 3 -->
+                <div class="practice-card scroll-reveal" data-index="3">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-people-roof"></i></div>
+                        <div class="card-title-group">
+                            <h3>Family & Divorce Disputes</h3>
+                            <p class="card-brief">Mutual consent divorce, child custody, alimony, and family asset distribution.</p>
                         </div>
-                        <span class="price-tag">₹15,999<small>/Couple</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.7 (81 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">Providing compassionate, discrete, yet highly strategic advocacy for family disputes. We prioritize amicable settlements through mediation but offer formidable representation in court when required.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Divorce by Mutual Consent & Contested Divorce</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Child Custody, Wardship & Guardianship</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Maintenance, Alimony & Spouse Support</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Domestic Violence Act & Restitution Rights</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="Family">Consult Family Expert <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Misty Munnar Escapade</h3>
-                        <p class="package-intro">Wander through scenic mist-kissed tea estates, roaring waterfalls, and enjoy a unique boutique treehouse resort stay with premium comforts.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                3 Nights & 4 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Luxury Treehouse & Valley Resort
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Sightseeing in Dedicated Cab
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
-                                Guided Spice Plantation Trek
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Misty%20Munnar%20Escapade%20Honeymoon%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Card 4: Himachal Family Tour (Family Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="family" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="3">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80" alt="Beautiful scenic valley in Himachal Manali" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1615966650071-855b15f29ad1?auto=format&fit=crop&w=800&q=80" alt="Himalayan mountain peak landscapes" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?auto=format&fit=crop&w=800&q=80" alt="Snow covered mountains pines" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 4 -->
+                <div class="practice-card scroll-reveal" data-index="4">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                        <div class="card-title-group">
+                            <h3>Criminal Defense & Bail Matters</h3>
+                            <p class="card-brief">Anticipatory bail, regular bail, white-collar crimes, and criminal trial advocacy.</p>
                         </div>
-                        <span class="price-tag">₹12,499<small>/Person</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.9 (185 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">Unwavering defense advocacy for individuals and corporations. We handle white-collar fraud, cybercrimes, quashing of FIRs, anticipatory bails, and trials with extreme confidentiality and strategic rigor.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Anticipatory & Regular Bail Petitions</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> White-Collar Crime & Financial Fraud Defense</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> FIR Quashing & Appeals before High Courts</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Negotiable Instruments Act (Cheque Bounce Cases)</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="Criminal">Consult Criminal Expert <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Scenic Himachal Tour</h3>
-                        <p class="package-intro">The perfect Himalayan escape for family groups. Enjoy Shimla Mall road tours, snow play at Solang Valley, and comfortable mountain stays.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                6 Nights & 7 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Highly Rated Family Hotels
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Private Toyota Innova Crysta
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                                Full On-Road Travel Insurance
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Scenic%20Himachal%20Family%20Tour%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Card 5: Rajasthan Family Tour (Family Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="family" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="4">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80" alt="Beautiful heritage palace fort in Jaipur Rajasthan" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?auto=format&fit=crop&w=800&q=80" alt="Heritage architecture of Udaipur palace" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?auto=format&fit=crop&w=800&q=80" alt="Golden sand desert dunes Rajasthan" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 5 -->
+                <div class="practice-card scroll-reveal" data-index="5">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-copyright"></i></div>
+                        <div class="card-title-group">
+                            <h3>Intellectual Property (IPR) & Trademarks</h3>
+                            <p class="card-brief">Trademarks filing, patent registration, copyright disputes, and trade secrets protection.</p>
                         </div>
-                        <span class="price-tag">₹14,999<small>/Person</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.8 (143 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">Protecting your innovations, brand equity, and creative assets. We offer complete intellectual property management from search audits to filing, renewals, and prosecution of infringements.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Trademark Registration, Opposition & Renewal</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Copyright Filing & Licensing Agreements</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Patent Search, Drafting & Prosecution</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Infringement Litigation & Cease and Desist Notices</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="General Advisory">Consult IPR Expert <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Royal Rajasthan Heritage</h3>
-                        <p class="package-intro">Experience royal grandeur with visits to historic forts in Jaipur, Udaipur lake palaces, desert camel safaris, and folk dance camps.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                5 Nights & 6 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Heritage Haveli/Palace Stays
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Dedicated Driver & Premium Cab
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                Dune Camping & Desert Safari
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Royal%20Rajasthan%20Family%20Tour%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
-                <!-- Card 6: Kerala Family Tour (Family Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="family" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="5">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1593693411515-c202e974fe08?auto=format&fit=crop&w=800&q=80" alt="Classic Kerala houseboat in water" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80" alt="Beautiful lush tropical trees Kerala" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80" alt="Scenic backwater sunset river canal" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
+                <!-- Card 6 -->
+                <div class="practice-card scroll-reveal" data-index="6">
+                    <div class="card-header-main">
+                        <div class="card-icon"><i class="fa-solid fa-file-signature"></i></div>
+                        <div class="card-title-group">
+                            <h3>Agreement Drafting & Legal Verifications</h3>
+                            <p class="card-brief">Sale deeds, lease agreements, joint venture drafts, and comprehensive legal audits.</p>
                         </div>
-                        <span class="price-tag">₹11,999<small>/Person</small></span>
+                        <span class="accordion-icon"><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.8 (112 reviews)</span>
+                    <div class="card-content-accordion">
+                        <div class="accordion-inner">
+                            <p class="accordion-text">Precision drafting is the first line of legal defense. We construct foolproof legal contracts, agreements, and power-of-attorneys that withstand rigorous judicial examination.</p>
+                            <ul class="accordion-list">
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Sale Deed, Gift Deed & Trust Deed Drafting</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Commercial Lease & Joint Development Agreements</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Wills, Codicils & Family Settlement Agreements</li>
+                                <li><i class="fa-solid fa-circle-play gold-text"></i> Comprehensive Legal Audit & Verification Reports</li>
+                            </ul>
+                            <a href="#consultation" class="card-cta btn-sm" data-category="General Advisory">Request Custom Draft <i class="fa-solid fa-chevron-right"></i></a>
                         </div>
-                        <h3 class="package-title">Kerala Serene Backwaters</h3>
-                        <p class="package-intro">A tranquil voyage through Kerala's backwater canals. Stay on a luxury private houseboat, explore tea farms, and get Ayurvedic massages.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                                4 Nights & 5 Days Package
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                                Luxury Houseboat Stay (All Meals)
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                Private SUV Cab for Transfers
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                                Free Ayurvedic Rejuvenation Spa
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20am%20interested%20in%20booking%20the%20Kerala%20Serene%20Backwaters%20Family%20Tour%20Package!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Package (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 7: Sedan Cab Package (Cab Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="cab" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="6">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=800&q=80" alt="Premium white sedan car on road" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" alt="Clean and comfortable car interior" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80" alt="Luxury car highway driving" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <span class="price-tag">₹12<small>/Km (Min 250Km)</small></span>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.9 (240 reviews)</span>
-                        </div>
-                        <h3 class="package-title">Premium Sedan Cab</h3>
-                        <p class="package-intro">Hire Swift Dzire, Toyota Etios, or Hyundai Aura for safe, fast, and comfortable outstation road trips and local airport transfers.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                                4 Passengers + 1 Driver Capacity
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-                                Professional Verified Driver
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                GPS-Tracked & Fully Insured
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                                Zero Hidden Toll or Fuel Charges
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20want%20to%20rent%20the%20Premium%20Sedan%20Cab!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Cab (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 8: SUV Cab Package (Cab Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="cab" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="7">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80" alt="Silver premium SUV on scenic forest road" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="High speed SUV on highway" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="SUV traveling through national park" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <span class="price-tag">₹18<small>/Km (Min 250Km)</small></span>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.9 (310 reviews)</span>
-                        </div>
-                        <h3 class="package-title">Luxury SUV (Toyota Innova Crysta)</h3>
-                        <p class="package-intro">Ride in style and ultimate comfort. Toyota Innova Crysta offers dual AC, premium leather captain seats, and exceptional highway stability.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                                6-7 Passengers + 1 Driver Capacity
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-                                Expert Safe Highway Driver
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                Luxury Interiors & Dual AC
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                                Sanitized vehicle with complimentary water
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20want%20to%20rent%20the%20Toyota%20Innova%20Crysta%20Luxury%20SUV!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Cab (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 9: Tempo Traveller Cab Package (Cab Category - Hidden initially by CSS filter) -->
-                <div class="package-card" data-category="cab" style="display: none;">
-                    <div class="card-visual">
-                        <div class="swipe-gallery" data-index="8">
-                            <div class="gallery-wrapper">
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1527786356703-4b100091cd2c?auto=format&fit=crop&w=800&q=80" alt="White traveler minivan driving on mountain highway" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?auto=format&fit=crop&w=800&q=80" alt="Inside comfortable group cabin traveller" loading="lazy">
-                                </div>
-                                <div class="gallery-slide">
-                                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="High hill mountain landscape route road" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="gallery-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </div>
-                        </div>
-                        <span class="price-tag">₹24<small>/Km (Min 300Km)</small></span>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.8 (85 reviews)</span>
-                        </div>
-                        <h3 class="package-title">Tempo Traveller (Group Van)</h3>
-                        <p class="package-intro">Perfect for large family gatherings, corporate events, and pilgrimage group tours. Features pushback recliner seats and high luggage volume.</p>
-                        <ul class="package-highlights">
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                                12-17 Seater Capacities Available
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-                                Highway Specialist Driver
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                                Bluetooth Stereo + Smart Screen System
-                            </li>
-                            <li>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                                Fully Sanitized & Pushback Luxury Seats
-                            </li>
-                        </ul>
-                        <a href="https://wa.me/919999999999?text=Hi%20ASvybe%20Travels,%20I%20want%20to%20rent%20the%20Tempo%20Traveller%20Group%20Van!" class="card-book-btn" target="_blank" rel="noopener">
-                            <span>Book Cab (WhatsApp)</span>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </a>
                     </div>
                 </div>
 
@@ -619,283 +293,220 @@
         </div>
     </section>
 
-    <!-- Plan Your Trip Form (Dynamic WhatsApp Quote Generator) -->
-    <section class="form-section" id="book-now">
-        <div class="section-container">
-            <div class="form-card-wrapper">
-                <div class="form-visual-panel" style="background-image: linear-gradient(135deg, rgba(14, 165, 233, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80');">
-                    <div class="panel-content">
-                        <span class="badge-tag outline">Instant Quote</span>
-                        <h2 class="panel-title">Plan Your Dream Journey in Seconds</h2>
-                        <p class="panel-desc">Fill in your basic travel details. Our smart forms formulate a perfect WhatsApp booking format to get you quotes instantly. No phone call waits required.</p>
-                        <div class="quick-benefits">
-                            <div class="benefit-item">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                                <span>Quotes within 5 Minutes</span>
-                            </div>
-                            <div class="benefit-item">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                                <span>No Hidden Fee Guarantee</span>
-                            </div>
-                            <div class="benefit-item">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                                <span>100% Free Planning Quote</span>
-                            </div>
+    <!-- Why Choose Us Section -->
+    <section class="why-section" id="why-choose-us">
+        <div class="container why-container">
+            <div class="why-image-wrapper scroll-reveal">
+                <div class="why-image-glow"></div>
+                <img src="assets/images/scales.png" alt="Scales of Justice on Legal Books" class="why-image">
+            </div>
+            
+            <div class="why-content scroll-reveal">
+                <span class="section-tagline">Our Pillars</span>
+                <h2 class="section-title">Why Choose Our Legal Firm</h2>
+                <div class="section-divider"></div>
+                
+                <div class="why-features">
+                    
+                    <div class="why-feature-item">
+                        <div class="why-feature-icon">
+                            <i class="fa-solid fa-star gold-text"></i>
+                        </div>
+                        <div class="why-feature-text">
+                            <h4>Highly Experienced & Result-Oriented</h4>
+                            <p>Our senior advocates bring decades of combined courtroom experience with a proven history of favorable verdicts and resolutions.</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="form-form-panel">
-                    <h3 class="form-title">Request a Travel Quote</h3>
-                    <form id="quote-form" class="quote-form">
+                    <div class="why-feature-item">
+                        <div class="why-feature-icon">
+                            <i class="fa-solid fa-user-lock gold-text"></i>
+                        </div>
+                        <div class="why-feature-text">
+                            <h4>Absolute Client Confidentiality & Privacy</h4>
+                            <p>Attorney-client privilege is absolute. We employ secure data practices and maintain strict confidentiality regarding all matters.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-feature-item">
+                        <div class="why-feature-icon">
+                            <i class="fa-solid fa-receipt gold-text"></i>
+                        </div>
+                        <div class="why-feature-text">
+                            <h4>Transparent Legal Fee Structure</h4>
+                            <p>No hidden retainers, unexpected litigation expenses, or overhead markups. We state our fee guidelines clearly from day one.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-feature-item">
+                        <div class="why-feature-icon">
+                            <i class="fa-solid fa-feather-pointed gold-text"></i>
+                        </div>
+                        <div class="why-feature-text">
+                            <h4>Dynamic Representation & Drafting</h4>
+                            <p>Combining persuasive, eloquent oral advocacy in courtrooms with highly research-backed and bulletproof pleadings.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Booking Form -->
+    <section class="consultation-section" id="consultation">
+        <div class="container">
+            <div class="consultation-box scroll-reveal">
+                <div class="consultation-header">
+                    <i class="fa-solid fa-balance-scale form-header-icon gold-text"></i>
+                    <h2>Schedule A Consultation</h2>
+                    <p>Provide your case details below. Our senior advocate will review your query and connect with you immediately via WhatsApp.</p>
+                </div>
+                
+                <form class="consultation-form" id="whatsappForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="clientName"><i class="fa-solid fa-user gold-text"></i> Full Name</label>
+                            <input type="text" id="clientName" name="clientName" placeholder="Enter your full name" required minlength="3">
+                        </div>
                         
-                        <div class="input-group">
-                            <label for="form-name">Your Full Name <span class="required">*</span></label>
-                            <div class="input-container">
-                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                                <input type="text" id="form-name" placeholder="John Doe" required minlength="3">
-                            </div>
+                        <div class="form-group">
+                            <label for="clientPhone"><i class="fa-solid fa-phone gold-text"></i> Phone / WhatsApp Number</label>
+                            <input type="tel" id="clientPhone" name="clientPhone" placeholder="e.g. +91 98765 43210" required pattern="[+0-9\s-]{10,20}">
                         </div>
 
-                        <div class="input-group">
-                            <label for="form-phone">WhatsApp Phone Number <span class="required">*</span></label>
-                            <div class="input-container">
-                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                                <input type="tel" id="form-phone" placeholder="e.g. +91 99999 99999" required pattern="[+0-9\s-]{10,20}">
-                            </div>
+                        <div class="form-group full-width">
+                            <label for="caseCategory"><i class="fa-solid fa-folder-open gold-text"></i> Case Category</label>
+                            <select id="caseCategory" name="caseCategory" required>
+                                <option value="" disabled selected>Select case category</option>
+                                <option value="Property">Civil Litigations & Property Disputes</option>
+                                <option value="Corporate">Corporate & Business Law</option>
+                                <option value="Family">Family & Divorce Disputes</option>
+                                <option value="Criminal">Criminal Defense & Bail Matters</option>
+                                <option value="General Advisory">General Advisory & Contract Drafting</option>
+                            </select>
                         </div>
 
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="form-type">Trip Category <span class="required">*</span></label>
-                                <select id="form-type" required>
-                                    <option value="Tour Package" selected>Tour Package (Flight/Stay+Cab)</option>
-                                    <option value="Cab Rental">Cab Rental Only (Outstation/Local)</option>
-                                </select>
-                            </div>
-                            <div class="input-group">
-                                <label for="form-destination">Destination / Route <span class="required">*</span></label>
-                                <div class="input-container">
-                                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                    <input type="text" id="form-destination" placeholder="e.g., Kashmir Tour or Delhi to Manali" required>
-                                </div>
-                            </div>
+                        <div class="form-group full-width">
+                            <label for="caseDesc"><i class="fa-solid fa-align-left gold-text"></i> Brief Case Description</label>
+                            <textarea id="caseDesc" name="caseDesc" rows="4" placeholder="Briefly summarize your legal issue..." required minlength="10"></textarea>
                         </div>
+                    </div>
 
-                        <div class="form-row">
-                            <div class="input-group">
-                                <label for="form-date">Departure Date <span class="required">*</span></label>
-                                <input type="date" id="form-date" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="form-days">Duration (Days) <span class="required">*</span></label>
-                                <input type="number" id="form-days" placeholder="5" min="1" max="60" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="form-guests">Guests <span class="required">*</span></label>
-                                <input type="number" id="form-guests" placeholder="2" min="1" max="100" required>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="form-submit-btn">
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 1.977 14.068 1.05 11.999 1.05 6.562 1.05 2.136 5.421 2.132 10.85c-.001 1.745.47 3.447 1.365 4.957l-.989 3.612 3.704-.973zm11.233-6.924c-.321-.161-1.9-.937-2.193-1.044-.293-.107-.507-.161-.72.161-.213.322-.826 1.044-1.013 1.258-.187.214-.373.241-.694.08-1.513-.757-2.612-1.329-3.662-3.14-.277-.478.277-.443.791-.962.463-.467.587-.723.694-.937.107-.214.053-.402-.027-.562-.08-.161-.72-1.741-.987-2.383-.26-.625-.526-.54-.72-.55-.187-.008-.4-.01-.613-.01-.213 0-.56.08-.853.402-.293.322-1.12 1.097-1.12 2.678 0 1.58 1.147 3.11 1.307 3.325.16.215 2.259 3.449 5.474 4.836.765.33 1.362.527 1.826.674.77.244 1.472.21 2.027.128.618-.092 1.9-.777 2.166-1.49.266-.713.266-1.325.187-1.488-.08-.162-.293-.243-.614-.404z"/>
-                            </svg>
-                            Send Details via WhatsApp
-                        </button>
-                    </form>
-                </div>
+                    <button type="submit" class="btn btn-primary form-submit btn-glow">
+                        <i class="fa-brands fa-whatsapp"></i> Redirect to WhatsApp Consultation
+                    </button>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- Core Trust Pillars (Why Choose Us) -->
-    <section class="why-us-section" id="why-us">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-sub">Unmatched Services</span>
-                <h2 class="section-title">Why Smart Travelers Choose ASvybe</h2>
-                <p class="section-description">We combine top luxury and transparency to make every road trip and vacation truly memorable.</p>
-            </div>
+    <!-- Location & Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <div class="contact-info-panel scroll-reveal">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2>Office Location & Contacts</h2>
+                    <div class="section-divider"></div>
+                    <p>Visit our chambers or contact us to schedule an urgent in-person appointment. Walk-ins are subject to advocate availability.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method-card">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-details">
+                                <h5>Chamber Address</h5>
+                                <p>Suite 405, Lex Imperial Chambers, High Court Road, Sector 4, New Delhi - 110001</p>
+                            </div>
+                        </div>
 
-            <div class="pillars-grid">
-                <!-- Pillar 1 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon-box">
-                        <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                            <path d="M9 10h.01M12 10h.01M15 10h.01"/>
-                        </svg>
+                        <a href="tel:+919999988888" class="contact-method-card link-card">
+                            <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                            <div class="contact-details">
+                                <h5>Contact Number</h5>
+                                <p>+91 99999 88888</p>
+                            </div>
+                        </a>
+
+                        <a href="mailto:support@asvybe.com" class="contact-method-card link-card">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                            <div class="contact-details">
+                                <h5>Email Support</h5>
+                                <p>support@asvybe.com</p>
+                            </div>
+                        </a>
                     </div>
-                    <h3 class="pillar-title">24/7 On-Trip Support</h3>
-                    <p class="pillar-text">We are always with you. From late airport pickups to changing schedules, reach our responsive team at any hour.</p>
                 </div>
-                <!-- Pillar 2 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon-box">
-                        <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                            <polyline points="9 22 9 12 15 12 15 22"/>
-                        </svg>
+
+                <!-- Interactive Premium Map Placeholder -->
+                <div class="contact-map-panel scroll-reveal">
+                    <div class="map-container-glow"></div>
+                    <div class="map-placeholder">
+                        <i class="fa-solid fa-map-location-dot map-icon gold-text"></i>
+                        <h4>ASvybe Chambers Map View</h4>
+                        <p class="map-sub">High Court Chambers Complex, Block-B, New Delhi</p>
+                        <!-- Simulated Interactive Map Controls -->
+                        <div class="map-simulated-iframe">
+                            <div class="map-pin-pulse"></div>
+                            <div class="map-card-popup">
+                                <strong>ASvybe Advocates</strong>
+                                <p>Lex Imperial Chambers</p>
+                            </div>
+                        </div>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-secondary btn-sm mt-3">
+                            <i class="fa-solid fa-route"></i> Get Directions
+                        </a>
                     </div>
-                    <h3 class="pillar-title">Handpicked Verified Hotels</h3>
-                    <p class="pillar-text">No false photos. Our tour packages include stays tested for extreme clean standards, security, and service.</p>
                 </div>
-                <!-- Pillar 3 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon-box">
-                        <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                            <circle cx="9" cy="7" r="4"/>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                        </svg>
-                    </div>
-                    <h3 class="pillar-title">Experienced & Safe Drivers</h3>
-                    <p class="pillar-text">Travel with verified, highly trained local drivers specializing in hill driving and tourist guiding.</p>
-                </div>
-                <!-- Pillar 4 -->
-                <div class="pillar-card">
-                    <div class="pillar-icon-box">
-                        <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="12" y1="8" x2="12" y2="16"/>
-                            <line x1="8" y1="12" x2="16" y2="12"/>
-                        </svg>
-                    </div>
-                    <h3 class="pillar-title">Best Price Guarantee</h3>
-                    <p class="pillar-text">Honest quotes with all tolls, driver allowance, and permits included. No surprise hidden charges at trip end.</p>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Customer Happy Stories Section -->
-    <section class="reviews-section" id="reviews">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-sub">Client Feedback</span>
-                <h2 class="section-title">Stories From Our Happy Travelers</h2>
-                <p class="section-description">Real stories from tourists who toured and booked premium outstation cabs with us.</p>
-            </div>
-
-            <div class="reviews-grid">
-                <!-- Review 1 -->
-                <div class="review-card">
-                    <div class="review-header">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Customer Profile Portrait" class="review-avatar" loading="lazy">
-                        <div class="review-author-info">
-                            <h4 class="review-author">Anjali Sharma</h4>
-                            <span class="review-tag">Kashmir Tour Client</span>
-                        </div>
-                        <span class="stars">★★★★★</span>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="footer-crest">A</span>
+                        <span>ASvybe Advocates</span>
                     </div>
-                    <p class="review-body">"ASvybe planned our Gulmarg honeymoon perfectly! The hotels were exactly as shown, and the dedicated sedan driver was very polite. Highly recommended!"</p>
+                    <p class="footer-desc">A premium legal chamber offering bespoke solutions, unmatched dedication, and robust defense structures across all legal tiers.</p>
                 </div>
-
-                <!-- Review 2 -->
-                <div class="review-card">
-                    <div class="review-header">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Customer Profile Portrait" class="review-avatar" loading="lazy">
-                        <div class="review-author-info">
-                            <h4 class="review-author">Rajesh Goel</h4>
-                            <span class="review-tag">Cab Booking Client</span>
-                        </div>
-                        <span class="stars">★★★★★</span>
+                
+                <div class="footer-links-grid">
+                    <div class="footer-link-col">
+                        <h4>Navigation</h4>
+                        <a href="#">Home</a>
+                        <a href="#stats">About Us</a>
+                        <a href="#practice-areas">Practice Areas</a>
+                        <a href="#why-choose-us">Why Choose Us</a>
                     </div>
-                    <p class="review-body">"Booked an Innova Crysta for a family trip to Manali. The vehicle was fully sanitized and the driver drove extremely safely on the steep hairpins. Top service!"</p>
-                </div>
-
-                <!-- Review 3 -->
-                <div class="review-card">
-                    <div class="review-header">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" alt="Customer Profile Portrait" class="review-avatar" loading="lazy">
-                        <div class="review-author-info">
-                            <h4 class="review-author">Meera & Kabir</h4>
-                            <span class="review-tag">Kerala Family Tour</span>
-                        </div>
-                        <span class="stars">★★★★★</span>
+                    <div class="footer-link-col">
+                        <h4>Practice Areas</h4>
+                        <a href="#practice-areas">Civil & Property</a>
+                        <a href="#practice-areas">Corporate Law</a>
+                        <a href="#practice-areas">Family Disputes</a>
+                        <a href="#practice-areas">Criminal Defense</a>
                     </div>
-                    <p class="review-body">"Seamless houseboat reservations and zero coordination hassles. Every detail in our itinerary was executed to perfection by their round-the-clock support."</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Footer -->
-    <footer class="main-footer">
-        <div class="footer-container">
-            <div class="footer-grid">
-                <!-- Col 1 -->
-                <div class="footer-col brand-col">
-                    <a href="#" class="logo-link">
-                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"/>
-                            <path d="M16.2 7.8l-2 5.6-5.6 2 2-5.6 5.6-2z"/>
-                        </svg>
-                        <span class="logo-text text-white">ASvybe <span class="accent-text">Travels</span></span>
-                    </a>
-                    <p class="brand-desc">ASvybe Travels & Cab Services is a premium, verified travel provider. We build beautiful, high-converting itineraries and guarantee reliable outstation travel experiences.</p>
-                </div>
-
-                <!-- Col 2 -->
-                <div class="footer-col links-col">
-                    <h4 class="footer-col-title">Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home Base</a></li>
-                        <li><a href="#packages">Tour Packages</a></li>
-                        <li><a href="#book-now">Cab Bookings</a></li>
-                        <li><a href="#why-us">Trust Pillars</a></li>
-                        <li><a href="#reviews">Happy Reviews</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 3 -->
-                <div class="footer-col contact-col">
-                    <h4 class="footer-col-title">Branch Office</h4>
-                    <p class="contact-detail">
-                        <strong>Address:</strong> Sector 5, HSR Layout, Bengaluru, Karnataka - 560102
-                    </p>
-                    <p class="contact-detail">
-                        <strong>Hotline:</strong> +91 99999 99999
-                    </p>
-                    <p class="contact-detail">
-                        <strong>Support:</strong> support@asvybe.com
-                    </p>
-                </div>
-
-                <!-- Col 4 -->
-                <div class="footer-col social-col">
-                    <h4 class="footer-col-title">Follow Journeys</h4>
-                    <div class="social-icons">
-                        <a href="https://wa.me/919999999999" class="social-icon-btn whatsapp-glow" aria-label="Connect via WhatsApp" target="_blank" rel="noopener">
-                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 1.977 14.068 1.05 11.999 1.05 6.562 1.05 2.136 5.421 2.132 10.85c-.001 1.745.47 3.447 1.365 4.957l-.989 3.612 3.704-.973zm11.233-6.924c-.321-.161-1.9-.937-2.193-1.044-.293-.107-.507-.161-.72.161-.213.322-.826 1.044-1.013 1.258-.187.214-.373.241-.694.08-1.513-.757-2.612-1.329-3.662-3.14-.277-.478.277-.443.791-.962.463-.467.587-.723.694-.937.107-.214.053-.402-.027-.562-.08-.161-.72-1.741-.987-2.383-.26-.625-.526-.54-.72-.55-.187-.008-.4-.01-.613-.01-.213 0-.56.08-.853.402-.293.322-1.12 1.097-1.12 2.678 0 1.58 1.147 3.11 1.307 3.325.16.215 2.259 3.449 5.474 4.836.765.33 1.362.527 1.826.674.77.244 1.472.21 2.027.128.618-.092 1.9-.777 2.166-1.49.266-.713.266-1.325.187-1.488-.08-.162-.293-.243-.614-.404z"/>
-                            </svg>
-                        </a>
-                        <a href="https://instagram.com" class="social-icon-btn instagram-glow" aria-label="Follow on Instagram" target="_blank" rel="noopener">
-                            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                            </svg>
-                        </a>
-                        <a href="https://facebook.com" class="social-icon-btn facebook-glow" aria-label="Follow on Facebook" target="_blank" rel="noopener">
-                            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                            </svg>
-                        </a>
+                    <div class="footer-link-col">
+                        <h4>Legal Support</h4>
+                        <p class="footer-email-link"><i class="fa-solid fa-envelope gold-text"></i> support@asvybe.com</p>
+                        <p class="footer-phone-link"><i class="fa-solid fa-phone gold-text"></i> +91 99999 88888</p>
                     </div>
                 </div>
             </div>
-
+            
             <div class="footer-bottom">
-                <p class="copyright">&copy; 2026 ASvybe Travels. All rights reserved.</p>
-                <p class="creator">Created by <span class="creator-accent">ASvybe</span></p>
+                <p>&copy; 2026 ASvybe Advocates. All Rights Reserved. | <a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+                <p class="footer-credit">Created by <span class="gold-text-glow">ASvybe</span></p>
             </div>
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <!-- JS Files -->
+    <script src="script.js"></script>
 </body>
 </html>
